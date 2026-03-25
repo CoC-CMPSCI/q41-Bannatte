@@ -18,24 +18,24 @@ int main()
     cout << "Enter your choice (1-4): ";
     cin >> choice;
 
-    if (choice == 1) {
+    if (choice == 1) { # Circle
         cout << "Enter the radius: ";
         cin >> radius;
         area = PI * pow(radius, 2);
         cout << area << endl;
-    } else if (choice == 2) {
+    } else if (choice == 2) { # Rectangle
         cout << "Enter length and width: ";
         cin >> width >> height;
         area = width * height;
         cout << area << endl;
-    } else if (choice == 3) {
+    } else if (choice == 3) { # Triangle
         cout << "Enter base and height: ";
         cin >> base >> height;
         area = base * height * 0.5;
         cout << area << endl;
-    } else if (choice == 4) {
+    } else if (choice == 4) { # Stopped
         cout << "Program Stopped" << endl;
-    } else {
+    } else { # Other
         cout << "Wrong number" << endl;
     }
 
