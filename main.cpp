@@ -33,7 +33,7 @@ int main()
         cin >> base >> height;
         area = base * height * 0.5;
         cout << area << endl;
-    } else if (choice = 4) {
+    } else if (choice == 4) {
         cout << "Program Stopped" << endl;
     } else {
         cout << "Invalid Input" << endl;
