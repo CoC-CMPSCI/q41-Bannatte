@@ -36,7 +36,7 @@ int main()
     } else if (choice == 4) {
         cout << "Program Stopped" << endl;
     } else {
-        cout << "Invalid Input" << endl;
+        cout << "Wrong number" << endl;
     }
 
     cout << left << setprecision(2) << fixed;
